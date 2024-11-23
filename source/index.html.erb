@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Tom Krenzke</h1>
+  <p>I am a full-stack developer with 9+ years of experience working on projects of all sizes, with a strong math/science/engineering background. I'm looking to ﬁnd creative solutions to interesting problems. I get the most satisfaction from working on a problem that requires knowledge of a number of disciplines, forces me to learn new skills, and ﬁnd new ways to apply the experience I already have.</p>
+
+  <h1>Experience</h1>
+  <% data.experience.each do |experiece_data| %>
+    <%= partial 'experience_item', locals: experiece_data %>
+  <% end %>
+  <h1>Education</h1>
+  <h1>Side Projects</h1>
+</div>

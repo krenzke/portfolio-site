@@ -1,0 +1,25 @@
+<div class="side-project">
+  <div class="side-project__image" style="background-image: url('/assets/300.jpg')">
+  </div>
+  <div class="side-project__content">
+    <h3 class="side-project__title"><%= title %></h3>
+    <% if locals['subtitle'] %>
+      <p class="side-project__subtitle"><%= subtitle %></p>
+    <% end %>
+    <p class="side-project__description"><%= description %></p>
+
+    <div class="side-project__tags">
+      <% tags.each do |tag| %>
+        <div class="side-project__tag"><%= tag %></div>
+      <% end %>
+    </div>
+    <div class="side-project__links">
+      <% if locals['github_url'] %>
+        <a href="<%= github_url %>">Github</a>
+      <% end %>
+      <% if locals['live_url'] %>
+        <a href="<%= live_url %>">Live Demo</a>
+      <% end %>
+    </div>
+  </div>
+</div>

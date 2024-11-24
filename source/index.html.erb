@@ -25,4 +25,7 @@
   </section>
 
   <h1 id="side-projects">Side Projects</h1>
+    <% data.side_projects.each do |project_data| %>
+      <%= partial 'side_project_item', locals: project_data %>
+    <% end %>
 </div>

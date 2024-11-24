@@ -1,14 +1,38 @@
-- name: foo
-  start_date: 100
-- name: bar
-  start_date: 200
-- name: bar
-  start_date: 200
-- name: bar
-  start_date: 200
-- name: bar
-  start_date: 200
-- name: bar
-  start_date: 200
-- name: bar
-  start_date: 200
+- company_name: Daybreak Health
+  title: Senior Backend Engineer
+  start_date: Mar 2022
+  end_date: Oct 2022
+  link: https://daybreakhealth.com
+  description: Maintained and developed a legacy Rails app (with Typescript front end), with numerous integrations (Salesforce, third-party EHRs, mobile app, etc). Responsible for planning, documenting, and executing several large technical proposals.
+- company_name: Aha!
+  title: Software Engineer
+  start_date: Jun 2019
+  end_date: Feb 2022
+  link: https://aha.io
+  description: Helped maintain and expand a large Rails application. Worked closely with PM and design to deliver large customer-facing features. Worked with customer success to support customer interactions and directly address customer-submitted issues and feature requests. Learned a lot about working in a large, monolithic codebase with many developers working simultaneously. Also, learned a lot about security best practices for managing sensitive customer data.
+- company_name: Unnamed Startup
+  title: CTO
+  start_date: Aug 2018
+  end_date: May 2019
+  description: Helped plan, develop, implement a scheduling platform for ﬁtness studios. The primary app was a Ruby/Rails pure API, which fed two React/Typescript front-ends, an admin CMS, and several mobile apps. Gained a lot of experience in architecting a large, multi-app system including things like api authentication, multi-domain hosting, payment processing, email marketing, and many others. Was able to get some new exposure to mobile app development via Flutter as well.
+- company_name: Chef'd
+  title: Software Engineer
+  start_date: Apr 2018
+  end_date: Jul 2018
+  description: Helped to architect microservices platform using Kubernetes as the main orchestrator. Migrated existing disparate systems to GCP platform while maintain system functionality and improving reliability. Key technologies include Kubernetes, Go lang, Elasticsearch, and GCP.
+- company_name: HYFN
+  title: Senior Software Developer
+  start_date: Oct 2013
+  end_date: Apr 2018
+  description: Full-stack web app development using primarily Ruby on Rails for the back end, and the javascript framework du jour for the front end (thus far having working in Ember, React, and most recently Vue). Projects are a good mix of short-turnaround short-lived promotions (e.g. summer promos for a chip company with interactive games and bag code redemptions) and longer term full brand redesigns with custom CMS.
+- company_name: Mittrio LLC
+  title: Co-Founder
+  start_date: Jul 2011
+  end_date: Jan 2013
+  description: Provided engineering consulting for satellite cluster ﬂight software design in Matlab, Kalman ﬁlter design for a medical device company, and web application development.
+- company_name: Northrop Grumman
+  title: Engineer
+  start_date: Jul 2006
+  end_date: Oct 2011
+  link: https://www.northropgrumman.com/ 
+  description: Took on several roles including Controls Analyst, Flight Software Engineer, Actuator RDE, and Ground Systems Designer. Made extensive use of Matlab, C++, CATIA, and several in-house analysis tools. Helped to develop a better mass properties analysis tool to replace obsolete existing solution. Responsible for working in teams, communicating with other disciplines, conducting reviews, writing reports, following processes.

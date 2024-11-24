@@ -1,4 +1,12 @@
-- name: foo
-  start_date: 100
-- name: bar
-  start_date: 200
+- university_name: MIT
+  major: Aerospace Engineering
+  subtitle: "Masters Degree | Thesis: Ant Colony Optimization for Agile Motion Planning"
+  start_date: Aug 2004
+  end_date: Jun 2006
+  description: Controls, multi-variable optimization, linear programming.
+- university_name: University of Illinois at Urbana-Champaign
+  major: Aerospace Engineering
+  subtitle: "Bachelors Degree | Minor: Computer Science"
+  start_date: Aug 2000
+  end_date: Jun 2004
+  description: Controls, aircraft design, computer graphics.

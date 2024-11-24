@@ -1,6 +1,7 @@
 :root {
   --timeline-color: #D1D5DB;
   --subtext-grey: #6b7280;
+  --link-color: #317bd0;
 }
 
 html {
@@ -102,6 +103,10 @@ h1, h2, h3, h4 {
 .timeline__subtitle {
   font-size: small;
   color: var(--subtext-grey);
+}
+
+.timeline__link {
+  color: var(--link-color);
 }
 
 .timeline__description {

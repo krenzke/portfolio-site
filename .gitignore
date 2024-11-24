@@ -2,6 +2,7 @@
 .cache
 .DS_Store
 .sass-cache
+.vscode
 build/
 
 NOTES

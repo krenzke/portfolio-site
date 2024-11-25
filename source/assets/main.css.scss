@@ -2,10 +2,12 @@
 // Generic Tag Rules
 ///////////////////////
 :root {
-  --timeline-color: #D1D5DB;
+  // --timeline-color: #D1D5DB;
+  --timeline-color: #E37222;
   --subtext-grey: #6b7280;
-  --link-color: #317bd0;
-  --link-color-hover: #245c9d;
+  --link-color: #66b9bf;
+  --link-color-hover: #07889b;
+  --body-background-color: #eeaa7b;
 }
 
 *,
@@ -26,8 +28,8 @@ body {
   font-family: "Open Sans", "Segoe UI", sans-serif;
   background-image: url('/assets/so-white.png');
   background-repeat: repeat;
-  background-blend-mode: lighten;
-  background-color: #f6f9fc;
+  // background-blend-mode: lighten;
+  // background-color: var(--body-background-color);
   padding-bottom: 5rem;
 }
 
@@ -44,6 +46,14 @@ h1, h2, h3, h4 {
 ///////////////////////
 .text-justify {
   text-align: justify;
+}
+
+.underline {
+  border-bottom: solid 2px var(--timeline-color);
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .container {
@@ -69,11 +79,11 @@ header {
   text-transform: uppercase;
   & > a {
     text-decoration: none;
-    color: var(--subtext-grey);
+    color: var(--link-color);
     border-bottom: solid transparent 2px;
     &:hover {
-      color: black;
-      border-color: black;
+      color: var(--link-color-hover);
+      border-color: var(--link-color-hover);
     }
     transition: color ease-in-out 0.25s;
     transition: border-color ease-in-out 0.25s;
@@ -174,17 +184,22 @@ header {
   display: flex;
   align-items: stretch;
   gap: 1.5rem;
-  & > a {
-    background-color: var(--link-color);
-    color: white;
-    padding: 0.5rem 1rem;
-    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
-    border-radius: 4px;
-    white-space: nowrap;
-    text-decoration: none;
-    transition: background-color ease-in-out 0.2s;
-    &:hover {
-      background-color: var(--link-color-hover);
-    }
+}
+
+.side-project__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: var(--link-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+  border-radius: 4px;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: background-color ease-in-out 0.2s;
+  &:hover {
+    background-color: var(--link-color-hover);
   }
 }

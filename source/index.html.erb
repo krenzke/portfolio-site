@@ -3,12 +3,18 @@
     <a href="#experience">Experience</a>
     <a href="#education">Education</a>
     <a href="#side-projects">Side Projects</a>
+    <a href="https://github.com/krenzke">
+      <%= partial 'github_icon' %>
+    </a>
+    <a href="https://www.linkedin.com/in/tom-krenzke">
+      <%= partial 'linkedin_icon' %>
+    </a>
   </header>
 
-  <h1>Tom Krenzke's Portfolio</h1>
+  <h1 class="underline inline-block">Tom Krenzke's Portfolio</h1>
   <p class="text-justify">I am a full-stack developer with 9+ years of experience working on projects of all sizes, with a strong math/science/engineering background. I'm looking to ﬁnd creative solutions to interesting problems. I get the most satisfaction from working on a problem that requires knowledge of a number of disciplines, forces me to learn new skills, and ﬁnd new ways to apply the experience I already have.</p>
 
-  <h1 id="experience">Experience</h1>
+  <h1 class="underline inline-block" id="experience">Experience</h1>
   <section class="grid-section">
     <div class="timeline"></div>
     <% data.experience.each do |experience_data| %>
@@ -16,7 +22,7 @@
     <% end %>
   </section>
 
-  <h1 id="education">Education</h1>
+  <h1 class="underline inline-block" id="education">Education</h1>
   <section class="grid-section">
     <div class="timeline"></div>
     <% data.education.each do |education_data| %>
@@ -24,7 +30,7 @@
     <% end %>
   </section>
 
-  <h1 id="side-projects">Side Projects</h1>
+  <h1 class="underline inline-block" id="side-projects">Side Projects</h1>
     <% data.side_projects.each do |project_data| %>
       <%= partial 'side_project_item', locals: project_data %>
     <% end %>

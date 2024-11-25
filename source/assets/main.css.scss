@@ -151,9 +151,24 @@ header {
   box-shadow: 0 50px 100px rgba(50,50,93,.05),0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.1);
   background-color: white;
 }
-.side-project__image {
+.side-project__image-container {
   flex: 1;
+  position: relative;
+}
+
+.side-project__image {
   background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+  width: 100%;
+  height: 100%;
+}
+.side-project__image-border {
+  position: absolute;
+  background-color: #EEE;
+  right: -1px;
+  left: 0;
+  top: 0;
+  bottom: 0;
   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
 }
 .side-project__content {

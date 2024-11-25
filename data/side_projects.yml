@@ -2,7 +2,7 @@
   description: This is a simple recipe tracker I made. I like to cook.
   github_url: https://github.com/krenzke
   live_url: https://example.com
-  image_path: https://placehold.co/200
+  image_asset_name: gastro_screenshot.png
   tags:
     - Ruby/Rails
     - Elasticsearch

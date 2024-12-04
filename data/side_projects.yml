@@ -1,9 +1,35 @@
 - title: Recipe Tracker
-  description: This is a simple recipe tracker I made. I like to cook.
-  github_url: https://github.com/krenzke
-  live_url: https://example.com
+  description: A simple recipe database for personal use. I was tired of the UI cruft of most recipes sites and wanted function-over-form app that let me track my recipes. Also, it was a fun excuse to play with JSON:API and custom metric logging.
+  github_url: https://github.com/krenzke/gastro
+  live_url: /gastro
   image_asset_name: gastro_screenshot.png
   tags:
     - Ruby/Rails
+    - React
+    - Webpack
+    - Typescript
     - Elasticsearch
     - Tailwind
+    - MobX
+    - JSON:API
+- title: Spyrograph
+  description: Your favorite childhood pattern drawing toy, re-imagined as a web app.
+  github_url: https://github.com/krenzke/spyrograph
+  live_url: /spyrograph
+  image_asset_name: spyrograph_screenshot.png
+  tags:
+    - Vite
+    - Konva
+    - Tailwind
+    - Math!
+- title: Weather App
+  description: Like with recipe sites, I find weather sites way too cluttered with ads and other junk. So I made a simple weather forecast site with only the information I need. Quick, easy, efficient.
+  github_url: https://github.com/krenzke/weather_vue
+  live_url: /weather
+  image_asset_name: weather_app_screenshot.png
+  tags:
+    - Vue
+    - Pinia
+    - Chartjs
+    - Typescript
+    - Golang

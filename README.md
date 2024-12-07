@@ -14,20 +14,6 @@ and visit <http://localhost:4567>
 
 The main static site is just a single page that lives in `index.html.erb`. Apply any html changes there, along with css and javascript in their respective files.
 
-### Data Files
+## Data Files
 
 To add/edit/remove any experience, education, or side project details modify the corresponding yaml file in the `/data` directory.
-
-## Deployment
-
-To build everything
-
-```sh
-bin/build
-```
-
-TODO: rsync deploy to server
-
-## Provisioning
-
-TODO: uses ansible.
